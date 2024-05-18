@@ -133,7 +133,7 @@
                     <!-- Section Container -->
                     <div class="global-container">
                         <div class="breadcrumb-block">
-                            <h1 class="breadcrumb-title">Contact Us</h1>
+                            <h2 class="breadcrumb-title">Contact Us</h2>
                             <ul class="breadcrumb-nav">
                                 <li><a href="index.html">Home</a></li>
                                 <li>Contact Us</li>
@@ -157,9 +157,9 @@
                             <!-- Contact Left Block -->
                             <div class="order-2 flex flex-col md:order-1">
                                 <!-- Section Content Block -->
-                                <div class="mb-8 text-left lg:mb-16 xl:mb-6">
+                                <div class="mb-8 text-left :mb-16 xl:mb-6">
                                     <div class="mx-auto md:mx-0 md:max-w-none">
-                                        <h2>Get in touch with us directly</h2>
+                                        <small><h2>Get in touch with us directly</h2></small>
                                     </div>
                                 </div>
                                 <!-- Section Content Block -->
@@ -173,12 +173,12 @@
                                         <li class="flex flex-col gap-y-4 text-2xl font-bold">
                                             Send us an email:
                                             <a href="mailto:yourmail@email.com"
-                                                class="text-2xl font-normal leading-loose hover:text-colorOrangyRed lg:text-3xl">info@moveneticsdigital.com</a>
+                                                class="text-2xl font-normal leading-loose hover:text-colorOrangyRed lg:text-3xl"><small>info@moveneticsdigital.com</small></a>
                                         </li>
                                         <li class="flex flex-col gap-y-4 text-2xl font-bold">
                                             Give us a call:
                                             <a href="tel:+0123456789"
-                                                class="text-2xl font-normal leading-loose hover:text-colorOrangyRed lg:text-3xl">+91 9130870095</a>
+                                                class="text-2xl font-normal leading-loose hover:text-colorOrangyRed lg:text-3xl"><small>+91 9130870095</small></a>
                                         </li>
                                         <li class="flex flex-col gap-y-4 text-2xl font-bold">
                                             Follow us:
@@ -254,17 +254,32 @@
                                                 placeholder="Your Name"
                                                 class="rounded-[10px] border border-gray-300 bg-white px-6 py-[18px] font-bold text-black outline-none transition-all placeholder:text-slate-500 focus:border-colorOrangyRed"
                                                 required />
+
+                                                                                        
+                                            <style>
+                                                #contact-name {
+                                                    font-size: 1.25rem; /* Adjust this value to decrease the input text font size */
+                                                }
+                                             
+                                            </style>
                                         </div>
+                                        
                                         <!-- Form Single Input -->
                                         <!-- Form Single Input -->
                                         <div class="flex flex-col gap-y-[10px]">
-                                            <label for="contact-email" class="text-lg font-bold leading-[1.6]">Email
-                                                address</label>
-                                            <input type="email" name="contact-email" id="contact-email"
-                                                placeholder="username@email.com"
-                                                class="rounded-[10px] border border-gray-300 bg-white px-6 py-[18px] font-bold text-black outline-none transition-all placeholder:text-slate-500 focus:border-colorOrangyRed"
-                                                required />
-                                        </div>
+                                        <label for="contact-email" class="text-lg font-bold leading-[1.6]">Email address</label>
+                                        <input type="email" name="contact-email" id="contact-email"
+                                            placeholder="username@email.com"
+                                            class="rounded-[10px] border border-gray-300 bg-white px-6 py-[18px] font-bold text-black outline-none transition-all placeholder:text-slate-500 focus:border-colorOrangyRed"
+                                            required />
+                                    </div>
+
+                                    <style>
+                                        #contact-email::placeholder {
+                                            font-size: 1.25rem; /* Adjust this value to decrease the placeholder font size */
+                                        }
+                                    </style>
+
                                         <!-- Form Single Input -->
                                     </div>
                                     <!-- Form Group -->
@@ -278,6 +293,13 @@
                                                 placeholder="(123) 456 - 7890"
                                                 class="rounded-[10px] border border-gray-300 bg-white px-6 py-[18px] font-bold text-black outline-none transition-all placeholder:text-slate-500 focus:border-colorOrangyRed"
                                                 required />
+                                                                                        
+                                            <style>
+                                                #contact-phone {
+                                                    font-size: 1.25rem; /* Adjust this value to decrease the input text font size */
+                                                }
+                                               
+                                            </style>
                                         </div>
                                         <!-- Form Single Input -->
                                         <!-- Form Single Input -->
@@ -288,6 +310,13 @@
                                                 placeholder="Company Name"
                                                 class="rounded-[10px] border border-gray-300 bg-white px-6 py-[18px] font-bold text-black outline-none transition-all placeholder:text-slate-500 focus:border-colorOrangyRed"
                                                 required />
+
+                                                <style>
+                                                    #contact-company {
+                                                        font-size: 1.25rem; /* Adjust this value to decrease the input text font size */
+                                                    }
+                                                   
+                                                </style>
                                         </div>
                                         <!-- Form Single Input -->
                                     </div>
@@ -307,6 +336,12 @@
                                             class="button mt-5 rounded-[50px] border-2 border-black bg-black py-4 text-white after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-white">
                                             Send your message
                                         </button>
+                                        <style>
+                                            #contact-message {
+                                                font-size: 1.25rem; /* Adjust this value to decrease the input text font size */
+                                            }
+                                           
+                                        </style>
                                     </div>
                                     <!-- Form Group -->
                                 </form>
@@ -340,13 +375,13 @@
                         <!-- Map Block -->
                         
                         <div class="address-box">
-                            <h5>PUNE SOUTH</h5>
+                          <small>  <h5>PUNE SOUTH</h5>
                             <p>SUITE 6, KONARK BUSINESS HUB, KONDHWA, PUNE 411048, INDIA</p>
-                        </div>
+                        </small></div>
                         <div class="address-box">
-                            <h5>PUNE WEST</h5>
+                           <small> <h5>PUNE WEST</h5>
                             <p>4TH FLOOR, CITY VISTA FOUNDTION ROAD, KHARADI, PUNE, 411014 INDIA</p>
-                        </div>
+                        </small></div>
                         <div style="clear:both;"></div>
 
 
@@ -361,42 +396,7 @@
             <!--...::: Map Section Start :::... -->
         </main>
 
-        <!--...::: Footer Section Start :::... -->
-        <footer
-            class="relative z-[1] -mt-[70px] overflow-hidden rounded-tl-[30px] rounded-tr-[30px] bg-colorLinenRuffle lg:rounded-tl-[50px] lg:rounded-tr-[50px]">
-            <!-- Footer Top -->
-            <div class="py-[60px] xl:pb-[100px] xl:pt-[130px]">
-                <div class="overflow-hidden">
-                    <!-- Footer Text Slider -->
-                    <div class="footer-text-slider flex w-full items-center gap-x-[30px] whitespace-nowrap">
-                        <!-- Footer Slide Item  -->
-                        <img src="assets/img/th-1/footer-text-slider-icon.svg" alt="footer-text-slider-icon" width="60"
-                            height="60" class="h-10 w-10 lg:h-[60px] lg:w-[60px]" />
-                        <div
-                            class="block font-dmSans text-4xl font-bold leading-none -tracking-[2px] text-black lg:text-6xl xl:text-7xl xxl:text-[80px]">
-                            Start building software
-                        </div>
-                        <!-- Footer Slide Item  -->
-                        <!-- Footer Slide Item  -->
-                        <img src="assets/img/th-1/footer-text-slider-icon.svg" alt="footer-text-slider-icon" width="60"
-                            height="60" class="h-10 w-10 lg:h-[60px] lg:w-[60px]" />
-                        <div
-                            class="block font-dmSans text-4xl font-bold leading-none -tracking-[2px] text-black lg:text-6xl xl:text-7xl xxl:text-[80px]">
-                            Start building software
-                        </div>
-                        <!-- Footer Slide Item  -->
-                        <!-- Footer Slide Item  -->
-                        <img src="assets/img/th-1/footer-text-slider-icon.svg" alt="footer-text-slider-icon" width="60"
-                            height="60" class="h-10 w-10 lg:h-[60px] lg:w-[60px]" />
-                        <div
-                            class="block font-dmSans text-4xl font-bold leading-none -tracking-[2px] text-black lg:text-6xl xl:text-7xl xxl:text-[80px]">
-                            Start building software
-                        </div>
-                        <!-- Footer Slide Item  -->
-                    </div>
-                </div>
-            </div>
-            <!-- Footer Text Slider -->
+         <!-- Footer Text Slider -->
             <!-- Footer Top -->
             <div class="global-container">
                 <div class="h-[1px] w-full bg-[#DBD6CF]"></div>
@@ -406,14 +406,16 @@
                     <!-- Footer Widget -->
                     <div class="flex flex-col gap-y-6">
                         <h5>Addresses</h5>
-                       <p>
-                            <b> PUNE SOUTH </b> <br>
-                                SUITE 6, KONARK BUSINESS HUB, KONDHWA, PUNE 411048, INDIA
-                        </p>
+                        <p>
+                            <small> <small><b> PUNE SOUTH </b> <br>
+                                SUITE 6, KONARK BUSINESS HUB, KONDHWA, PUNE 411048, INDIA</small>
+                        </small>
+                           </p>
 
                         <p>
-                            <b> PUNE WEST </b> <br>
-                                4TH FLOOR, CITY VISTA FOUNDTION ROAD, KHARADI, PUNE, 411014 INDIA
+                         <small><small><b> PUNE WEST </b> <br>
+                            4TH FLOOR, CITY VISTA FOUNDTION ROAD, KHARADI, PUNE, 411014 INDIA</small>
+               </small>    
                         </p>
                          
                     </div>
@@ -431,11 +433,11 @@
                         <ul class="flex flex-col gap-y-[10px] capitalize">
                             <li>
                                 <a href="mailto:info@moveneticsdigital.com"
-                                    class="transition-all duration-300 ease-linear hover:text-colorOrangyRed" style="text-transform: lowercase;">info@moveneticsdigital.com</a>
+                                    class="transition-all duration-300 ease-linear hover:text-colorOrangyRed" style="text-transform: lowercase;"><small><small>info@moveneticsdigital.com</small></small></a>
                             </li>
                             <li>
                                 <a href="tel:+91 91308 700 95"
-                                    class="transition-all duration-300 ease-linear hover:text-colorOrangyRed">+91 91308 700 95</a>
+                                    class="transition-all duration-300 ease-linear hover:text-colorOrangyRed"><small><small>+91 91308 700 95</small></small></a>
                             </li>
                             
                         </ul>
@@ -454,24 +456,24 @@
                         <ul class="flex flex-col gap-y-[10px] capitalize">
                             <li>
                                 <a href="index.html"
-                                    class="transition-all duration-300 ease-linear hover:text-colorOrangyRed">Home</a>
+                                    class="transition-all duration-300 ease-linear hover:text-colorOrangyRed"><small><small>Home</small></small></a>
                             </li>
                             <li>
                                 <a href="about.html"
-                                    class="transition-all duration-300 ease-linear hover:text-colorOrangyRed">About
-                                    Us</a>
+                                    class="transition-all duration-300 ease-linear hover:text-colorOrangyRed"><small><small>About Us</small></small></a>
+                                    
                             </li>
                             <li>
                                 <a href="services.html"
-                                    class="transition-all duration-300 ease-linear hover:text-colorOrangyRed">Services</a>
+                                    class="transition-all duration-300 ease-linear hover:text-colorOrangyRed"><small><small>Service</small></small></a>
                             </li>
                             <li>
                                 <a href="pricing.html"
-                                    class="transition-all duration-300 ease-linear hover:text-colorOrangyRed">pricing</a>
+                                    class="transition-all duration-300 ease-linear hover:text-colorOrangyRed"><small><small>Prising</small></small></a>
                             </li>
                             <li>
                                 <a href="contact.html"
-                                    class="transition-all duration-300 ease-linear hover:text-colorOrangyRed">Contact</a>
+                                    class="transition-all duration-300 ease-linear hover:text-colorOrangyRed"><small><small>Contact</small></small></a>
                             </li>
                         </ul>
                     </div>
@@ -486,16 +488,16 @@
                         <!-- Footer Title -->
                         <!-- Footer Subscriber Form -->
                         <form action="#" method="post" class="">
-                            <div class="relative h-[50px] max-w-[300px]">
-                                <input type="email" name="newsletter-email" id="newsletter-email"
-                                    placeholder="Enter your email"
-                                    class="p-y-[18px] h-full w-full rounded-[50px] border-[1px] border-black px-[24px] pr-20 outline-none"
-                                    required />
-                                <button type="submit"
+                            <small><div class="relative h-[5px] max-w-[300px]">
+                               <small> <input type="email" name="newsletter-email" id="newsletter-email"
+                                placeholder="Enter your email" h-[5px] max-w-[300px]
+                                class="p-y-[10px] h-1 w-full rounded-[50px] border-[1px] border-black px-[24px] pr-20 outline-none"
+                                required /></small>
+                                   <button type="submit"
                                     class="absolute right-[5px] top-[50%] inline-block h-10 -translate-y-[50%] rounded-[50px] bg-black px-6 transition-all hover:bg-orange-500">
                                     <img src="assets/img/th-1/arrow-right-large.svg" alt="newsletter" />
                                 </button>
-                            </div>
+                            </div></small>
                         </form>
                         <!-- Footer Subscriber Form -->
                     </div>
@@ -505,7 +507,7 @@
                 <div class="h-[1px] w-full bg-[#DBD6CF]"></div>
                 <!-- Footer Bottom -->
                 <div class="py-9 text-center">
-                    <p>&copy; Copyright 2024, All Rights Reserved by Movenetics Digital</p>
+                    <p>&copy; <small><small>Copyright 2024, All Rights Reserved by Movenetics Digital</small></small></p>
                 </div>
                 <!-- Footer Bottom -->
             </div>
